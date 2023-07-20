@@ -1,0 +1,11 @@
+name: Must run on my runner
+
+on: push
+
+jobs:
+  init:
+    runs-on: myprac
+    steps:
+      -run: echo 'Hello Buddy'
+      -run: echo '$HOSTNAME'
+      
