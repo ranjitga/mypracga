@@ -7,5 +7,4 @@ jobs:
     runs-on: myprac
     steps:
       -run: echo 'Hello Buddy'
-      -run: echo '$HOSTNAME'
-      
+      -run: echo  $HOSTNAME
