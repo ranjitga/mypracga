@@ -4,7 +4,7 @@ on: push
 
 jobs:
   init:
-    runs-on: myprac
+    runs-on: self-hosted
     steps:
       - run: echo 'Hello Buddy'
       - run: echo  $HOSTNAME
